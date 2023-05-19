@@ -28,7 +28,7 @@ const Home = () => {
               }
             />
           </li>
-          {/* {todos.map((item, index) => (
+           {todos.map((item, index) => 
             <li className="d-flex justify-content-between p-3 border-bottom border-grey">
               <p> {item} </p>
               <button
@@ -43,7 +43,7 @@ const Home = () => {
                 }
               ></button>
             </li>
-          ))} */}
+          )} 
         </ul>
         <div className="p-1">{todos.length} item left</div>
       </div>
